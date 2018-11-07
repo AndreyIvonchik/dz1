@@ -25,14 +25,17 @@ html body{
     color: white;
     text-decoration: none;
 }
-.login-link a{
-    color: white;
-    font-size: 26px;
+.login-link{
     position: absolute;
     bottom: 50px;
     right: 20px;
+}
+.login-link a{
+    color: white;
+    font-size: 26px;
     text-decoration: underline;
 }
+
 .image-link{
     display: inline-block;
     width: 30px;
