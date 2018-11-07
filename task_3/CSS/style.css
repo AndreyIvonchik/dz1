@@ -1,0 +1,83 @@
+html body{
+    margin: 0;
+}
+.header h1{
+    margin: 0;
+    padding-top: 30px;
+    font-size: 50px;
+    color: white;
+}
+
+.header{
+    text-align: center;
+    position: relative;
+    background-image: url(../images/logo.jpg);
+    height: 188px;
+
+}
+.header .nav{
+    font-size: 26px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.header .nav > a{
+    color: white;
+    text-decoration: none;
+}
+.login-link a{
+    color: white;
+    font-size: 26px;
+    position: absolute;
+    bottom: 50px;
+    right: 20px;
+    text-decoration: underline;
+}
+.image-link{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-image: url(../images/link.png);
+    background-size: cover;
+}
+.content{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+}
+.content h3{
+    text-decoration: underline;
+}
+.content form{
+    display: bliock;
+}
+.content span{
+    display: block;
+    font-size: 11px;
+
+}
+form{
+    text-align: left;
+    width: 500px;
+    margin: 0 auto;
+}
+form div{
+    margin-bottom: 20px;
+}
+form div > input, div > label {
+    display: inline-block;
+}
+form div > input {
+    width: 50%;
+}
+
+form div > label {
+    width: 45%;
+}
+
+.footer{
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+}
